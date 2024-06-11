@@ -17,12 +17,15 @@ namespace Codility
 
             //Fib.Fibbo(22);
 
-            Debug.WriteLine(Fib.BinaryGap(9));
-            Debug.WriteLine("");
-            Debug.WriteLine(Fib.BinaryGap(529));
-            Debug.WriteLine("");
-            Debug.WriteLine(Fib.BinaryGap(20));
-            Debug.WriteLine("");
+            //Debug.WriteLine(Fib.BinaryGap(9));
+            //Debug.WriteLine("");
+            //Debug.WriteLine(Fib.BinaryGap(529));
+            //Debug.WriteLine("");
+            //Debug.WriteLine(Fib.BinaryGap(20));
+            //Debug.WriteLine("");
+
+            // Time Complexity
+            Debug.WriteLine(TimeComplexity.SmallFrog(10, 85, 30));
 
             // Keep the console window open
             //Console.ReadKey();
