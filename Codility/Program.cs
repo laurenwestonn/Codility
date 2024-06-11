@@ -25,7 +25,11 @@ namespace Codility
             //Debug.WriteLine("");
 
             // Time Complexity
-            Debug.WriteLine(TimeComplexity.SmallFrog(10, 85, 30));
+            Debug.WriteLine("Small frog: " + TimeComplexity.SmallFrog(10, 85, 30));
+            Debug.WriteLine("Missing Perm element: " + TimeComplexity.PermMissingElement(new int[] { 3, 2, 5, 1 }));
+            Debug.WriteLine("Missing Perm element: " + TimeComplexity.PermMissingElement(new int[] { 4, 2, 5, 1 }));
+            Debug.WriteLine("Missing Perm element: " + TimeComplexity.PermMissingElement(new int[] { 1 }));
+            Debug.WriteLine("Missing Perm element: " + TimeComplexity.PermMissingElement(new int[] { 2 }));
 
             // Keep the console window open
             //Console.ReadKey();
