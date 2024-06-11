@@ -39,26 +39,22 @@ namespace Codility
         public static int TapeEquilibrium(int[] A)
         {
             int smallestDifference = int.MaxValue;
+            int totalSum = 0;
+            int currentTotal = 0;
 
-            for (int i = 1; i < A.Length; i++)
+            for (int x = 0; x < A.Length; x++)
             {
-                int firstSum = 0;
-                int j = 0;
+                totalSum += A[x];
+            }
 
-                while (j < i)
-                {
-                    firstSum += A[j];
-                    j++;
-                }
+            for (int i = 0; i < A.Length - 1; i++)
+            {
+                currentTotal += A[i];
 
-                int secondSum = 0;
-                int k = A.Length - 1;
 
-                while (k >= i)
-                {
-                    secondSum += A[k];
-                    k--;
-                }
+                int firstSum = currentTotal;
+                int secondSum = totalSum - currentTotal;
+                
 
                 int difference = Math.Abs(secondSum - firstSum);
                 if (difference < smallestDifference)
