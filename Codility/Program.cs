@@ -30,7 +30,10 @@ namespace Codility
             //Debug.WriteLine("Missing Perm element: " + TimeComplexity.PermMissingElement(new int[] { 1 }));
             //Debug.WriteLine("Missing Perm element: " + TimeComplexity.PermMissingElement(new int[] { 2 }));
             //Debug.WriteLine("Tape Equilibrium: " + TimeComplexity.TapeEquilibrium(new int[] { 3, 1, 2, 4, 3 }));
-            Debug.WriteLine("Tape Equilibrium: " + TimeComplexity.TapeEquilibrium(new int[] { 1, 4 }));
+            //Debug.WriteLine("Tape Equilibrium: " + TimeComplexity.TapeEquilibrium(new int[] { 1, 4 }));
+
+            Debug.WriteLine("Triangle: " + Sorting.Triangle(new int[] { 10, 2, 5, 1, 8, 20 }));
+            Debug.WriteLine("Triangle: " + Sorting.Triangle(new int[] { 1, 1, 1, 1, 5, 5, 5 }));
 
 
             // Keep the console window open
